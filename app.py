@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import openai
 import secrets
-openai.api_key = secrets.OPENAI_API_KEY
+openai.api_key = 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
 st.set_page_config(layout="wide")
 st.markdown(
     """

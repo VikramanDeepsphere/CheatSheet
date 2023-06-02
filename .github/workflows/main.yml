@@ -1,0 +1,12 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  example_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use the API Key
+        run: |
+          echo ${{ secrets.API_KEY }}

@@ -7,6 +7,6 @@ jobs:
   example_job:
     runs-on: ubuntu-latest
     steps:
-      - name: Use the API Key
+      - name: Use the OpenAPI Key
         run: |
-          echo ${{ secrets.API_KEY }}
+          echo ${{ secrets.OPENAPI_KEY }}

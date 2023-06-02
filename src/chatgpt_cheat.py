@@ -21,7 +21,7 @@ def Chatgpt_Cheat():
         role_playing()
     elif vAR_input =='Learning':
         learn()
-    # elif vAR_input =='Writing Styles':
-    #     writing()
-    # elif vAR_input =='Learning How to Prompt?':
-    #     How_to_prompt()
+    elif vAR_input =='Writing Styles':
+        writing()
+    elif vAR_input =='Learning How to Prompt?':
+        How_to_prompt()

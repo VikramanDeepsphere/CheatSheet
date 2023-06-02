@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
+from src.ready_to_response import ready_response
 
-def jail_breake():
+def jail_breake(vAR_input_model):
     w1,col1,col2,w2=st.columns((1.5,2.5,4,.1))
     with col1:
             st.write('# ')
@@ -18,7 +19,7 @@ def jail_breake():
         with col2:
             st.write('# ')
             st.info()
-    
+        ready_response(vAR_input_model)
     
     elif vAR_input == 'The DAN 6.0 Prompt':
         with col1:
@@ -28,7 +29,7 @@ def jail_breake():
         with col2:
             st.write('# ')
             st.info()
-    
+        ready_response(vAR_input_model)
     
     elif vAR_input == 'The S.T.A.N Prompt':
         with col1:
@@ -38,7 +39,7 @@ def jail_breake():
         with col2:
             st.write('# ')
             st.info()
-   
+        ready_response(vAR_input_model)
    
     elif vAR_input == 'The DUDE Prompt':
         with col1:
@@ -48,7 +49,7 @@ def jail_breake():
         with col2:
             st.write('# ')
             st.info()
-    
+        ready_response(vAR_input_model)
     
     elif vAR_input == 'Illegality Mode':
         with col1:
@@ -58,7 +59,7 @@ def jail_breake():
         with col2:
             st.write('# ')
             st.info()
-   
+        ready_response(vAR_input_model)
    
     elif vAR_input == 'Alphabreak':
         with col1:
@@ -68,7 +69,7 @@ def jail_breake():
         with col2:
             st.write('# ')
             st.info()
-    
+        ready_response(vAR_input_model)
     
     elif vAR_input == 'Developer Mode':
         with col1:
@@ -78,7 +79,7 @@ def jail_breake():
         with col2:
             st.write('# ')
             st.info()
-   
+        ready_response(vAR_input_model)
    
     elif vAR_input == 'ChatGPT':
         with col1:
@@ -88,6 +89,6 @@ def jail_breake():
         with col2:
             st.write('# ')
             st.info()
-   
+        ready_response(vAR_input_model)
    
     

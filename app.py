@@ -1,6 +1,7 @@
 import streamlit as st
 import os
 import openai
+openai.api_key = secrets.OPENAI_API_KEY
 st.set_page_config(layout="wide")
 st.markdown(
     """

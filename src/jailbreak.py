@@ -3,7 +3,7 @@ import pandas as pd
 from src.ready_to_response import ready_response
 
 def jail_breake(vAR_input_model):
-    w1,col1,col2,w2=st.columns((1.5,2.5,4,.1))
+    w1,col1,col2,w2=st.columns((1,4,5,.5))
     with col1:
             st.write('# ')
             st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Select Functionality</span></p>", unsafe_allow_html=True)
@@ -15,7 +15,7 @@ def jail_breake(vAR_input_model):
         with col1:
             st.write('# ')
             st.write('# ')
-            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Example Prompt</span></p>", unsafe_allow_html=True)
+            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Sample Interaction with the Model</span></p>", unsafe_allow_html=True)
         with col2:
             st.write('# ')
             st.info()
@@ -25,7 +25,7 @@ def jail_breake(vAR_input_model):
         with col1:
             st.write('# ')
             st.write('# ')
-            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Example Prompt</span></p>", unsafe_allow_html=True)
+            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Sample Interaction with the Model</span></p>", unsafe_allow_html=True)
         with col2:
             st.write('# ')
             st.info()
@@ -35,7 +35,7 @@ def jail_breake(vAR_input_model):
         with col1:
             st.write('# ')
             st.write('# ')
-            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Example Prompt</span></p>", unsafe_allow_html=True)
+            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Sample Interaction with the Model</span></p>", unsafe_allow_html=True)
         with col2:
             st.write('# ')
             st.info()
@@ -45,7 +45,7 @@ def jail_breake(vAR_input_model):
         with col1:
             st.write('# ')
             st.write('# ')
-            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Example Prompt</span></p>", unsafe_allow_html=True)
+            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Sample Interaction with the Model</span></p>", unsafe_allow_html=True)
         with col2:
             st.write('# ')
             st.info()
@@ -55,7 +55,7 @@ def jail_breake(vAR_input_model):
         with col1:
             st.write('# ')
             st.write('# ')
-            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Example Prompt</span></p>", unsafe_allow_html=True)
+            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Sample Interaction with the Model</span></p>", unsafe_allow_html=True)
         with col2:
             st.write('# ')
             st.info()
@@ -65,7 +65,7 @@ def jail_breake(vAR_input_model):
         with col1:
             st.write('# ')
             st.write('# ')
-            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Example Prompt</span></p>", unsafe_allow_html=True)
+            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Sample Interaction with the Model</span></p>", unsafe_allow_html=True)
         with col2:
             st.write('# ')
             st.info()
@@ -75,7 +75,7 @@ def jail_breake(vAR_input_model):
         with col1:
             st.write('# ')
             st.write('# ')
-            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Example Prompt</span></p>", unsafe_allow_html=True)
+            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Sample Interaction with the Model</span></p>", unsafe_allow_html=True)
         with col2:
             st.write('# ')
             st.info()
@@ -85,7 +85,7 @@ def jail_breake(vAR_input_model):
         with col1:
             st.write('# ')
             st.write('# ')
-            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Example Prompt</span></p>", unsafe_allow_html=True)
+            st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Sample Interaction with the Model</span></p>", unsafe_allow_html=True)
         with col2:
             st.write('# ')
             st.info()

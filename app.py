@@ -35,7 +35,7 @@ st.markdown("<hr style=height:2.5px;margin-top:0px;background-color:gray;>",unsa
 
 with st.sidebar:
     selected = st.selectbox("",
-                     ['Select Application','ChatGPT Cheat'],key='text')
+                     ['ChatGPT Cheat'],key='text')
     Library = st.selectbox("",
                      ["Library Used","Streamlit","Image","Pandas","Requests"],key='text1')
     Gcp_cloud = st.selectbox("",
@@ -45,14 +45,18 @@ with st.sidebar:
             <input type="submit" value="Clear/Reset" />
             </form>"""
     st.sidebar.markdown(href, unsafe_allow_html=True)
-    st.markdown("### ")
+    st.markdown("# ")
+    st.markdown("# ")
+    st.markdown("# ")
+    st.markdown("# ")
+    st.markdown("# ")
     st.markdown("<p style='text-align: center; color: White; font-size:20px;'>Build & Deployed on<span style='font-weight: bold'></span></p>", unsafe_allow_html=True)
     s1,s2=st.columns((2,2))
     with s1:
-        st.write("")
+        st.write("### ")
         st.image('image/002.png')
     with s2:    
-        st.write("")
+        st.write("### ")
         st.image("image/oie_png.png")
 #--------------function calling-----------#
 if __name__ == "__main__":

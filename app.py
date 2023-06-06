@@ -7,7 +7,7 @@ st.markdown(
     """
     <style>
     body {
-        zoom: 0.9;
+        zoom: 90%;
     }
     </style>
     """,
